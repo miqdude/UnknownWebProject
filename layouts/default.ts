@@ -8,5 +8,5 @@ import UserColumn from "@/components/Contents/usercolumn";
     }
 })
 export default class DefaultLayoutComponents extends Vue {
-    
+    justify:string = "center";
 }

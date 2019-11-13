@@ -1,11 +1,8 @@
 <template>
-  <v-app>
+  <v-app light>
     <v-content>
-      <v-app-bar dark color="green">
-        <v-toolbar-title>Typescript nuxt app</v-toolbar-title>
-      </v-app-bar>
-      <v-container>
-        <v-row>
+      <v-container class="body-container" color="primary">
+        <v-row align-content-md="center" align-content="center">
           <!-- Left Component -->
           <v-col>
             <UserColumn></UserColumn>
@@ -22,3 +19,9 @@
 
 <script lang="ts" src='./default.ts'>
 </script>
+
+<style>
+.body-container{
+  max-width: 1000px;
+}
+</style>
